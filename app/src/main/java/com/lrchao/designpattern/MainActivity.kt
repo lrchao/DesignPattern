@@ -3,7 +3,7 @@ package com.lrchao.designpattern
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.lrchao.designpattern.pattern.chainofresponsibility.ChainOfResponsibilityRunner
+import com.lrchao.designpattern.pattern.chainofresponsibility.ChainOfResponsibilityPattern
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -16,11 +16,10 @@ class MainActivity : AppCompatActivity() {
         val adapter = ItemAdapter()
         adapter.addData(resources.getStringArray(R.array.pattern_list).toMutableList())
 
-
         adapter.onItemClickListener = object : ItemAdapter.OnItemClickListener{
             override fun onItemClick(position: Int) {
                 when(position){
-                        0 -> ChainOfResponsibilityRunner.run()
+                        0 -> ChainOfResponsibilityPattern.run()
                 }
             }
 
