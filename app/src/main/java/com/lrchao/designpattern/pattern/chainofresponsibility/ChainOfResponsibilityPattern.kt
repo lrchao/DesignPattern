@@ -5,6 +5,10 @@ import android.util.Log
 /**
  * Description: 责任链模式
  * https://juejin.im/post/5bd95adfe51d45607e02ecc0
+ * 使用场景：
+ * 1.有多个对象可以处理一个请求，哪个对象处理该请求由运行时刻自动确定。
+ * 2.可动态指定一组对象处理请求，或添加新的处理者。
+ * 3.在不明确指定请求处理者的情况下，向多个处理者中的一个提交请求。
  * @author lrc19860926@gmail.com
  * @date 2019-12-04 15:32
  */

@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.lrchao.designpattern.pattern.chainofresponsibility.ChainOfResponsibilityPattern
+import com.lrchao.designpattern.pattern.prototype.PrototypePattern
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -20,6 +21,7 @@ class MainActivity : AppCompatActivity() {
             override fun onItemClick(position: Int) {
                 when(position){
                         0 -> ChainOfResponsibilityPattern.run()
+                        1 -> PrototypePattern.run()
                 }
             }
 

@@ -3,5 +3,6 @@
 
     <string-array name="pattern_list">
         <item>责任链模式</item>
+        <item>原型模式</item>
     </string-array>
 </resources>
