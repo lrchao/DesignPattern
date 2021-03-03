@@ -2,8 +2,9 @@
     <string name="app_name">DesignPattern</string>
 
     <string-array name="pattern_list">
+        <item>单例模式</item>
         <item>责任链模式</item>
         <item>原型模式</item>
-        <item>单例模式</item>
+
     </string-array>
 </resources>

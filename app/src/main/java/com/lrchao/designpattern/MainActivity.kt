@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.lrchao.designpattern.pattern.chainofresponsibility.ChainOfResponsibilityPattern
 import com.lrchao.designpattern.pattern.prototype.PrototypePattern
-import com.lrchao.designpattern.pattern.singleton.SingletonPattern
+import com.lrchao.designpattern.singleton.SingletonPattern
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -21,9 +21,9 @@ class MainActivity : AppCompatActivity() {
         adapter.onItemClickListener = object : ItemAdapter.OnItemClickListener{
             override fun onItemClick(position: Int) {
                 when(position){
-                        0 -> ChainOfResponsibilityPattern.run()
-                        1 -> PrototypePattern.run()
-                        2 -> SingletonPattern.run()
+                        0 -> SingletonPattern.run()
+                        1 -> ChainOfResponsibilityPattern.run()
+                        2 -> PrototypePattern.run()
                 }
             }
 
