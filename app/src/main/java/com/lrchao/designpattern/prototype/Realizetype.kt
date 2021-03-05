@@ -1,4 +1,4 @@
-package com.lrchao.designpattern.pattern.prototype
+package com.lrchao.designpattern.prototype
 
 import android.util.Log
 
