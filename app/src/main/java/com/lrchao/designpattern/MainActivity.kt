@@ -3,6 +3,7 @@ package com.lrchao.designpattern
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.lrchao.designpattern.factory_method.FactoryMethodPattern
 import com.lrchao.designpattern.pattern.chainofresponsibility.ChainOfResponsibilityPattern
 import com.lrchao.designpattern.prototype.PrototypePattern
 import com.lrchao.designpattern.simplefactory.SampleFactoryPattern
@@ -25,6 +26,7 @@ class MainActivity : AppCompatActivity() {
                         0 -> SingletonPattern.run()
                         1 -> PrototypePattern.run()
                         2 -> SampleFactoryPattern.run()
+                        3 -> FactoryMethodPattern.run()
                         //2 -> ChainOfResponsibilityPattern.run()
                 }
             }
