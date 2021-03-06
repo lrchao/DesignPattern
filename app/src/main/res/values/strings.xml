@@ -6,6 +6,7 @@
         <item>原型模式</item>
         <item>简单工厂模式</item>
         <item>工厂方法模式</item>
+        <item>抽象工厂模式</item>
 <!--        <item>责任链模式</item>-->
     </string-array>
 </resources>
