@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.lrchao.designpattern.abstract_factory.AbstractFactoryPattern
+import com.lrchao.designpattern.builder.BuilderPattern
 import com.lrchao.designpattern.factory_method.FactoryMethodPattern
 import com.lrchao.designpattern.pattern.chainofresponsibility.ChainOfResponsibilityPattern
 import com.lrchao.designpattern.prototype.PrototypePattern
@@ -29,6 +30,7 @@ class MainActivity : AppCompatActivity() {
                         2 -> SampleFactoryPattern.run()
                         3 -> FactoryMethodPattern.run()
                         4 -> AbstractFactoryPattern.run()
+                        5 -> BuilderPattern.run()
                         //2 -> ChainOfResponsibilityPattern.run()
                 }
             }
