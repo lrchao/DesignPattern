@@ -8,6 +8,7 @@
         <item>工厂方法模式</item>
         <item>抽象工厂模式</item>
         <item>建造者模式</item>
+        <item>代理模式</item>
 <!--        <item>责任链模式</item>-->
     </string-array>
 </resources>

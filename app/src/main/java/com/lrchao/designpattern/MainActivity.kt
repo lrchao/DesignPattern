@@ -8,6 +8,7 @@ import com.lrchao.designpattern.builder.BuilderPattern
 import com.lrchao.designpattern.factory_method.FactoryMethodPattern
 import com.lrchao.designpattern.pattern.chainofresponsibility.ChainOfResponsibilityPattern
 import com.lrchao.designpattern.prototype.PrototypePattern
+import com.lrchao.designpattern.proxy.ProxyPattern
 import com.lrchao.designpattern.simplefactory.SampleFactoryPattern
 import com.lrchao.designpattern.singleton.SingletonPattern
 import kotlinx.android.synthetic.main.activity_main.*
@@ -31,6 +32,7 @@ class MainActivity : AppCompatActivity() {
                         3 -> FactoryMethodPattern.run()
                         4 -> AbstractFactoryPattern.run()
                         5 -> BuilderPattern.run()
+                        6 -> ProxyPattern.run()
                         //2 -> ChainOfResponsibilityPattern.run()
                 }
             }
